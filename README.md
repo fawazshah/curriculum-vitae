@@ -1,3 +1,3 @@
 # Fawaz Shah - CV
 
-Currently written in Microsoft Word, but planning to switch to LaTeX.
+Currently written in Microsoft Word, in the process of switching to LaTeX.
