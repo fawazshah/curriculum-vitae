@@ -1,3 +1,3 @@
-# Fawaz Shah - CV
+# Fawaz Shah - Curriculum Vitae
 
-Currently written in Microsoft Word, in the process of switching to LaTeX.
+Written in LaTeX.
