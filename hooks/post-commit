@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp fawaz-shah-CV.pdf ../fawazshah.github.io/files/
+cd ../fawazshah.github.io
+git add *
+git commit -m "Change to CV"
+git push
