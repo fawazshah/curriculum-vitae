@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Copy the updated CV into the neighbouring fawazshah.github.io folder, add, commit and push
 cp fawaz-shah-CV.pdf ../fawazshah.github.io/files/
 cd ../fawazshah.github.io
 git add *
