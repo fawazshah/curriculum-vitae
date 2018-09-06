@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Update the curriculum-vitae submodule in fawazshah.github.io and push changes
+
+cd ../fawazshah.github.io/curriculum-vitae
+git pull
+cd ..
+git add curriculum-vitae
+git commit -m "CV update"
+git push

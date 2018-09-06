@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Print warning message about pushing to fawazshah.github.io
+
+echo "WARNING: pushing these CV changes will also IMMEDIATELY push the changes to fawazshah.github.io"
