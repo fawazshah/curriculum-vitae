@@ -1,3 +1,4 @@
+
 %% start of file `template.tex'.
 %% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
 %
@@ -26,7 +27,14 @@
 
 \usepackage{import}
 
-\usepackage{verbatim} %allows multi-line comments
+% allows multi-line comments
+\usepackage{verbatim}
+
+\urlstyle{same}
+
+% setting certain values for tabular environment to work
+\setlength\arrayrulewidth{.4pt}
+\setlength\tabcolsep{6pt}
 
 % personal data
 \name{Fawaz}{Shah}
@@ -37,7 +45,7 @@
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
 \email{fs2217@ic.ac.uk}                               % optional, remove / comment the line if not wanted
 \homepage{fawazshah.github.io}                         % optional, remove / comment the line if not wanted
-\extrainfo{Joint Maths \& Computing (JMC) student}                 % optional, remove / comment the line if not wanted
+%\extrainfo{Joint Maths \& Computing (JMC) student}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
@@ -58,7 +66,17 @@
 %-----       resume       ---------------------------------------------------------
 \maketitle
 
-\vspace{-40pt}
+\vspace{-43pt}
+
+\begin{center}
+\textbf{GitHub}: \href{https://github.com/fawazshah/}{github.com/fawazshah} \\
+\textbf{LinkedIn}: \href{https://www.linkedin.com/in/fawaz-shah/}{linkedin.com/in/fawaz-shah}
+\end{center}
+
+\begin{tabular}{ l l }
+Proficient in: & \textbf{Java, C, HTML, CSS} \\
+Previously used: & \textbf{Python, Perl, SQL, JavaScript}
+\end{tabular}
 
 \section{Education}
 
@@ -95,17 +113,6 @@ GCSEs: 10 A*s \& 2 As
 
 \end{itemize}
 
-\section{Technical and Personal Skills}
-
-\begin{itemize}
-
-\item Implemented Java solutions in situations such as modelling traffic flow and solving mazes
-\item Written Python code for mathematical personal projects, such as solving sets of simultaneous equations and manipulation of coprime theory and the Mandelbrot set
-\item Led my team through a group project in building a binary emulator and an assembler in C
-\item Built and managed a public web server on a Raspberry Pi, using a LAMP stack
-\item Familiar with Git and programming on Linux systems
-\end{itemize}
-
 \section{Work Experience}
 
 \begin{itemize}
@@ -117,10 +124,10 @@ GCSEs: 10 A*s \& 2 As
 {Netcraft Ltd.}
 {}{}{
 \begin{itemize}
-\item Implemented new features to integrate two of Netcraft's biggest services, C2 and Takedown
-\item Wrote production code in Perl and SQL, refactored some of the existing Perl codebase for ease of use
-\item Gained experience in full stack development and exposure to the MVC interface pattern
-\item Integrated C2 with the older Contracts system, and rewrote old documentation with instructions for integrating with newer systems
+\item Implemented functionality so that malicious URLs can be automatically taken down based on certificate authority
+\item Wrote feature to stop taking down malicious URLs and mailservers for a company if their Netcraft contract has expired
+\item Refactored old Perl and SQL codebases for ease of use, gained experience in full stack development
+\item Rewrote documentation for 20+ year old codebases with instructions for integrating with newer systems
 \end{itemize}
 }}
 
@@ -131,8 +138,8 @@ GCSEs: 10 A*s \& 2 As
 {SolidariTee National}
 {}{}{
 \begin{itemize}
-\item Redesigned the website front-end, using HTML5 and CSS3, to make it more mobile-friendly
-\item Gained experience with using npm and ZURB Foundation
+\item Redesigned the website front-end to make it more mobile-friendly
+\item Gained experience with npm and ZURB Foundation
 \end{itemize}
 }}
 
@@ -144,14 +151,26 @@ GCSEs: 10 A*s \& 2 As
 
 \item{
 \cventry
-{Sep. 2017 - Jul. 2018}
-{JMC Year 1 Academic Representative}
-{Imperial College London}
+{Aug. 2018 - Jul. 2019}
+{Publicity Officer for DoCSoc (Imperial College Department of Computing Society)}
+{Imperial College Union}
 {}{}{
 \begin{itemize}
-\item Liaised with senior members of staff and other representatives to solve problems faced by JMC students
-\item Collected feedback from other first year JMC students and passed it on to the coordinators of the degree
-\item Reported any academic issues to relevant lecturers or administrative staff
+\item Currently negotiating £1000s of sponsorship with leading companies in the technology sector
+\item Wrote a guide on how to use Linux and the command line, aimed at 1st years with no programming experience
+\item In charge of social media and designing DoCSoc apparel
+\end{itemize}
+}}
+
+\item{
+\cventry
+{Aug. 2018 - Jul. 2019}
+{JMC (Joint Maths and Computing) Departmental Representative}
+{Imperial College Union}
+{}{}{
+\begin{itemize}
+\item I represent over 150 JMC students at meetings with senior staff
+\item I report any academic issues to relevant lecturers or year directors
 \end{itemize}
 }}
 
@@ -174,7 +193,7 @@ GCSEs: 10 A*s \& 2 As
 
 \begin{itemize}
 
-\item Awarded the St. Olave's Senior Colours tie and the H.G. Abel prize for academic excellence
+\item Awarded the St. Olave's H.G. Abel prize for academic excellence - given to top 14\% of the year
 
 \item Awarded a Merit in Imperial College's Japanese Horizons Level 1 Course
 
