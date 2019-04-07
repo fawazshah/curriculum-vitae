@@ -2,9 +2,12 @@
 
 # Update the curriculum-vitae submodule in fawazshah.github.io and push changes
 
+# Get the commit message for the most recent curriculum-vitae commit
+COMMIT_MSG="$(git log -1 --pretty=%B)"
+
 cd ../fawazshah.github.io/curriculum-vitae
 git pull origin master
 cd ..
 git add curriculum-vitae
-git commit -m "CV update"
+git commit -m "CV update: $COMMIT_MSG"
 git push
