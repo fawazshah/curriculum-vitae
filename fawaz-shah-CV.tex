@@ -42,7 +42,7 @@
 %\phone[mobile]{+44 7548822935}                   % optional, remove / comment the line if not wanted
 %\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
-\email{fs2217@ic.ac.uk}                               % optional, remove / comment the line if not wanted
+%\email{fs2217@ic.ac.uk}                               % optional, remove / comment the line if not wanted
 %\homepage{fawazshah.github.io}                         % optional, remove / comment the line if not wanted
 %\extrainfo{Joint Maths \& Computing (JMC) student}                 % optional, remove / comment the line if not wanted
 %\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
@@ -65,12 +65,62 @@
 %-----       resume       ---------------------------------------------------------
 \maketitle
 
-\vspace{-40pt}
+\vspace{-50pt}
 
 \begin{center}
 \textbf{Personal Website}: \href{https://fawazshah.github.io/}{fawazshah.github.io} \\
 \textbf{GitHub}: \href{https://github.com/fawazshah/}{github.com/fawazshah}
 \end{center}
+
+\section{Experience}
+
+\begin{itemize}
+
+\item{
+\cventry
+{Sept 2021 - present}
+{Software Engineer}
+{Bloomberg L.P.}
+{}{}{
+\begin{itemize}
+\item Part of the Equity Calculators team in Strategy Indices, building calculation logic that powers thousands of equity benchmark indices. Working mainly in C\# and SQL
+\item Helped develop a new system architecture to handle corporate actions and daily index calculations. Improved calculation speed by 20x by bulking up data retrieval/storage, minimising amount of data stored and optimising Rabbit messages
+\item Led migration of over 150 indices to this new system, keeping stakeholders in Product/Operations teams informed and performing stringent testing of the new system before migrating
+\item Continuously refactored index configuration to allow more generic grouping, ranking and filtering capabilities of stocks. This enabled product owners to create more indices via self-service rather than needing engineering involvement for every new index
+\item Led a team of 4 in an internal hackathon project to prototype a new web application for creating indices, using ASP.NET and Blazor with Bootstrap components. Demo'ed to internal Engineering and Product teams, with positive feedback around simplicity and ease of use compared to the existing solution
+\item Mentored new joiners to the team, and separately a university student applying to Bloomberg as part of Bloomberg Women In Tech
+%\item Onboarded several new members to the team, introducing them to C\# and our internal DSL for writing index calculations.
+\end{itemize}
+}}
+
+\item{
+\cventry
+{June - Sept 2020}
+{Software Engineering Industrial Placement}
+{Bloomberg L.P.}
+{}{}{
+\begin{itemize}
+\item Worked in Commodities Navigation \& Analytics, a team that services commodities data to Bloomberg's financial analysts
+\item Added a feature to Amundsen, a dataset discovery web-app, to let analysts launch Jupyter notebooks with datasets automatically loaded into Pandas dataframes
+\item Improved configurability of the ETL pipeline ingesting data into Amundsen from the Commodities datalake
+\item Developed an automated smoke tester for the Presto query engine serving the datalake
+\item Incorporated historical price search and improved charting capabilities into one of the team's Bloomberg Terminal functions
+\end{itemize}
+}}
+
+\item{
+\cventry
+{July - Sept 2019}
+{Software Engineering Intern}
+{Bloomberg L.P.}
+{}{}{
+\begin{itemize}
+\item Worked in Strategy Indices, developing a visualisation tool to display the structure, configuration and historical data of indices created with 'Behaviours', an internal C\# framework
+\item Created user interfaces using WPF and XAML, with an SQL database behind the scenes
+\end{itemize}
+}}
+
+\end{itemize}
 
 \section{Education}
 
@@ -89,66 +139,9 @@
 \end{itemize}
 }} % arguments 3 to 6 can be left empty
 
-\item{
-\cventry
-{2010--2017}
-{GCSEs and A Levels}
-{St. Olave's Grammar School}
-{}{}{
-\begin{itemize}
-\item A Levels: 4 A*s (Maths, Further Maths, Chemistry, Physics)
-\end{itemize}
-}}
-
 \end{itemize}
 
 \vspace{-10pt}
-
-\section{Experience}
-
-\begin{itemize}
-
-\item{
-\cventry
-{Jun. - Sep. 2020}
-{Software Engineering Industrial Placement}
-{Bloomberg L.P.}
-{}{}{
-\begin{itemize}
-\item Worked in Commodities Navigation \& Analytics, a team that services commodities data to Bloomberg's financial analysts
-\item Added a feature to Amundsen, a dataset discovery web-app, to let analysts launch Jupyter notebooks with datasets automatically loaded into Pandas dataframes
-\item Improved configurability of the ETL pipeline ingesting data into Amundsen from the Commodities datalake
-\item Developed an automated smoke tester for the Presto query engine serving the datalake
-\item Incorporated historical price search and improved charting capabilities into one of the team's Bloomberg Terminal functions
-\end{itemize}
-}}
-
-\item{
-\cventry
-{Jul. - Sep. 2019}
-{Software Engineering Intern}
-{Bloomberg L.P.}
-{}{}{
-\begin{itemize}
-\item Worked as part of Strategy Indices, a division who produce custom multi-asset indices implementing trading strategies for enterprise clients
-\item Developed a visualisation tool to display the structure, configuration and historical data of indices created with 'Behaviours', an internal C\# framework
-\item Created user interfaces using WPF and XAML, with an SQL database behind the scenes
-\end{itemize}
-}}
-
-\item{
-\cventry
-{Jul. - Aug. 2018}
-{Internet Services Developer - Intern}
-{Netcraft Ltd.}
-{}{}{
-\begin{itemize}
-\item Worked on a feature allowing malicious URLs to be automatically taken down based on certificate authority
-\item Refactored 20+ year old  Perl codebases for ease of use
-\end{itemize}
-}}
-
-\end{itemize}
 
 \section{Positions of Responsibility}
 
@@ -156,7 +149,7 @@
 
 \item{
 \cventry
-{Aug. 2020 - present}
+{Aug 2020 - Sept 2021}
 {Volunteer Software Engineering Contributor}
 {Imperial College Department of Computing EdTech Group}
 {}{}{
@@ -169,25 +162,13 @@
 
 \item{
 \cventry
-{Oct. 2019 - Mar. 2020}
+{Oct 2019 - Mar 2020}
 {Modules: Graphs \& Algorithms, Logic, Reasoning About Programs}
 {Undergraduate Teaching Assistant}
 {}{}{
 \begin{itemize}
 \item Led weekly tutorial sessions for a group of 9 first year Joint Maths \& Computing students
 \item Marked weekly tests and provided guidance and feedback throughout the academic year
-\end{itemize}
-}}
-
-\item{
-\cventry
-{Aug. 2018 - July 2019}
-{Marketing \& Publicity Officer}
-{DoCSoc (Imperial College Department of Computing Society)}
-{}{}{
-\begin{itemize}
-\item Presented an introductory lecture on using Linux and the command line, attracting over 120 students
-\item In charge of social media and designing DoCSoc apparel
 \end{itemize}
 }}
 
